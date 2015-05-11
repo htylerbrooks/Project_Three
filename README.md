@@ -1,8 +1,6 @@
 # Project_Three
 
 
-PROJECT 3:
-
 USER STORIES:
 
 -As a user I want to be able to create posts about a craft beer I have tried
@@ -13,21 +11,25 @@ USER STORIES:
 
 -As a user I want to incorporate the Open Beer Database API into my program
 
+-As a user I want to be able to see an index of all the posts 
+
 
 
 Entity Relationship Diagram:
 
-An author will have many posts and comments. 
+An author will have many posts and comments 
 
-A post will have many comments and one author. 
+A post will have many comments and one author
 
-A comment will have one author and one post!
+A comment will have one author and one post
+
 
 USER/Author
 
 -An author has many posts
 
 -An author has many comments
+
 
 POST 
 
