@@ -4,6 +4,7 @@
 PROJECT 3:
 
 USER STORIES:
+
 -As a user I want to be able to create posts about a craft beer I have tried
 
 -As a user I want to be able to comment on other peoples posts about a specific beer
