@@ -1,0 +1,15 @@
+<h1>Search Some Brews!</h1>
+
+
+<%= form_tag "/beers/results", method: :get do %>
+<%= text_field_tag :q, nil, placeholder: "Type Name of a Beer" %>
+<%= submit_tag "Search brewerydb API" %>
+
+<% end %>
+
+
+<%= @x %>
+
+
+
+<%= link_to "Back", articles_path %>

@@ -1,16 +1,19 @@
 Rails.application.routes.draw do
-  root 'welcome#index'
+
+
+  get 'beers/search', to: 'beers#search'
+  get 'beers/results', to: 'beers#results'
 
   devise_for :users, :path => 'accounts'
-  # get 'welcome/index'
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-    resources :users
+  root 'welcome#index'
 
 
-    resources :articles do
-      resources :comments
-    end
+  resources :users
+
+
+  resources :articles do
+    resources :comments
+  end
 
 
 
